@@ -1,0 +1,10 @@
+public class FrequencyMain
+{
+public static void main (String[]args)
+{
+Frequency f = new Frequency();
+String str = "Enjoy java programming java";
+String word = "java";
+System.out.println(f.Frequency(str, word));
+}
+}
